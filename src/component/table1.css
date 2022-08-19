@@ -1,0 +1,45 @@
+.editable-cell {
+    position: relative;
+  }
+  
+  .editable-cell-value-wrap {
+    padding: 5px 12px;
+    cursor: pointer;
+  }
+  
+  .editable-row:hover .editable-cell-value-wrap {
+    padding: 4px 11px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+  }
+  
+  [data-theme='dark'] .editable-row:hover .editable-cell-value-wrap {
+    border: 1px solid #434343;
+  }
+  
+  .ant-table-thead > tr >th{
+    color: white;
+    background: #3071b9 !important;
+    background-color: #3071b9;
+  }
+  .ant-table{
+    background-color: #27293d !important;
+    color: white !important;
+  }
+  .ant-table-tbody > tr >th{
+    color: white !important;
+    background: #3071b9 !important;
+    background-color: #3071b9;
+  }
+  .ant-table-tbody > tr > td {
+    background: rgba(255,255,255,0) !important;
+  }
+  .ant-table-tbody > tr >td:hover{
+    background: rgb(255,255,255) !important;
+  }
+  .ant-table-tbody > tr > td {
+    background: rgba(255,255,255,0) !important;
+  }
+  .ant-table-tbody > tr >td:hover{
+    background: rgba(255,255,255,0) !important;
+  }
